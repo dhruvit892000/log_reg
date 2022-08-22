@@ -161,11 +161,11 @@ class _signupState extends State<signup> {
                               borderRadius: BorderRadius.circular(20)
                           ),
                           prefixIcon: Icon(Icons.lock),
-                          suffixIcon: IconButton(
+                         /* suffixIcon: IconButton(
                             icon:
                             isHidden  ? Icon(Icons.visibility_off): Icon(Icons.visibility),
                             onPressed: togglePasswordVisisbility,
-                        ),
+                        ),*/
                       ),
                       ),
 
@@ -229,7 +229,7 @@ class _signupState extends State<signup> {
       ),
     );
   }
-  void togglePasswordVisisbility() =>setState(() =>isHidden = !isHidden);
+ // void togglePasswordVisisbility() =>setState(() =>isHidden = !isHidden);
   /*void validateEmail(String val) {
     print('hii');
     if (val.isEmpty) {
